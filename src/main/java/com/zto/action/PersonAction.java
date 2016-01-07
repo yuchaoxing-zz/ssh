@@ -14,6 +14,9 @@ import com.zto.service.PersonService;
  */
 public class PersonAction extends ActionSupport{
 
+	public static void main(String[] args) {
+		System.out.println("测试有没有推送到github上面");
+	}
 	private PersonService personService; 
 	
 	public String findAll(){
@@ -33,5 +36,7 @@ public class PersonAction extends ActionSupport{
 		this.personService = personService;
 	}
 	
-	
+	public void test(){
+		System.out.println("git test...");
+	}
 }
